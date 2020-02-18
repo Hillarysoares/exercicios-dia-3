@@ -1,10 +1,10 @@
 #Exercício 4: Crie um programa que o usuário irá digitar um valor inteiro, e com base nesse valor construa uma escada.
 print ('Monte sua escada')
-caracter = str(input ('Digite o caracter que será utilizado: ')).upper()
+caracter = input ('Digite o caracter que será utilizado: ')
+degraus = int(input ('Digite a quantidade de degraus que deseja: '))
+Lista = []
 
-degraus = input ('Digite a quantidade de degraus que deseja: ')
-
-nome = str(input(‘Digite o seu nome: ‘)).upper()
-for i in range(0, len(nome)+1):
-print(nome[:i])
+for i in range (1, degraus+1):
+    Lista.append(caracter)
+    print(Lista)
 
